@@ -10,7 +10,7 @@ export default function Navbar() {
   const closeMobileMenu = () => setIsClicked(false);
 
   return (
-    <div>
+    <>
       <nav className="navbar">
         <div className="navbar-container">
           <button className="navbar-logo" onClick={closeMobileMenu}>Teste</button>
@@ -36,6 +36,6 @@ export default function Navbar() {
           </ul>
         </div>
       </nav>
-    </div>
+    </>
   );
 }
