@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/Navbar.css';
 
 // type navProps = {};
 
@@ -12,7 +13,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         <div className="navbar-container">
-          <button className="navbar-logo">Teste</button>
+          <button className="navbar-logo" onClick={closeMobileMenu}>Teste</button>
           <button className="menu-icon" onClick={handleClick}>
             <i className={isClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
           </button>
