@@ -4,7 +4,7 @@ import '../styles/Cards.css';
 
 export default function Cards() {
   return (
-    <div id="services" className="cards">
+    <div id="vantagens" className="cards">
       <h2>Lorem ipsum dolor sit amet consectetur.</h2>
       <div className="cards-container">
         <div className="cards-wrapper">

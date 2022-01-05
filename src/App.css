@@ -13,3 +13,7 @@ body, html {
 .App {
   text-align: center;
 }
+
+.fa-map-marker-alt {
+  margin-right: 5px;
+}

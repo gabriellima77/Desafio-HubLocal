@@ -1,25 +1,17 @@
 import React from 'react';
-import Button from './Button';
 import '../styles/HeroSection.css';
 
 export default function HeroSection() {
   return (
     <section className="hero-container">
-      <video src="./" autoPlay muted loop />
-      <h1>
-        Lorem ipsum.
-      </h1>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <div className="hero-btns">
-        <Button
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
-          type="button"
-          onClick={() => console.log(1)}
-        >
-          Teste
-        </Button>
-      </div>
+      {/* <video src="videos/video.mp4" autoPlay muted loop /> */}
+      <h1>Aumente as suas vendas</h1>
+      <p>Construindo sua presença na internet!</p>
+      <a href="#about" className="bottom-box">
+        <div className="next-section">
+          <i className="fas fa-sort-down" />
+        </div>
+      </a>
     </section>
   );
 }

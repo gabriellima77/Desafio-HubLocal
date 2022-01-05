@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <a href="/" className="social-logo">
-              Page-Logo
+              <i className="fas fa-map-marker-alt" /> HubLocal
             </a>
           </div>
           <small className="website-rights">Gabriel Lima © 2022</small>

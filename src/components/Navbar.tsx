@@ -13,24 +13,27 @@ export default function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <button className="navbar-logo" onClick={closeMobileMenu}>Teste</button>
+          <button className="navbar-logo" onClick={closeMobileMenu}>
+            <i className="fas fa-map-marker-alt" />
+            HubLocal
+          </button>
           <button className="menu-icon" onClick={handleClick}>
             <i className={isClicked ? 'fas fa-times' : 'fas fa-bars'}></i>
           </button>
           <ul className={isClicked ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
               <button className="nav-links" onClick={closeMobileMenu}>
-                About
+                Início
               </button>
             </li>
             <li className="nav-item">
               <button className="nav-links" onClick={closeMobileMenu}>
-                More
+                Sobre
               </button>
             </li>
             <li className="nav-item">
               <button className="nav-links" onClick={closeMobileMenu}>
-                Info
+                Vantagens
               </button>
             </li>
           </ul>
