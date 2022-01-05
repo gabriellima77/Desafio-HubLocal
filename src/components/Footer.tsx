@@ -7,10 +7,12 @@ export default function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
-          voluptate aspernatur fugiat saepe, iusto mollitia.
+          Para receber mais informações sobre nossos planos atuais e futuros se
+          inscreva abaixo.
         </p>
-        <p className="footer-subscription-text">Lorem ipsum dolor sit amet.</p>
+        <p className="footer-subscription-text">
+          Você pode se desiscrever a qualquer momento.
+        </p>
         <div className="input-areas">
           <form onSubmit={(e) => e.preventDefault()}>
             <input
